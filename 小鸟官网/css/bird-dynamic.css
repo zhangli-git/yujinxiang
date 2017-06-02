@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.list-more{
+    width: 58px;
+    height: 58px;
+    background: url("../images/lis_more_btn_bg.png") no-repeat 0 -58px;
+    margin: 15px auto 130px;
+    cursor: pointer;
+}
+.list-more:hover{
+    background: url("../images/lis_more_btn_bg.png") no-repeat;
+    transition: all 0.3s ease 0s;
+}
+.module-title h3{
+    color: #311759;
+    font-size: 30px;
+    background: url("../images/pen_line_long.png") no-repeat 0 58px;
+    height: 60px;
+    position: relative;
+    font-weight: 500;
+}
+.module-title .pen{
+    width: 61px;
+    height: 58px;
+    position: absolute;
+    right: 0;
+    top:7px;
+    cursor: pointer;
+    background: url("../images/pen_list.png") no-repeat;
+}
+.module-title .pen:hover{
+    background-position: -61px 0;
+}
+.dynamic-content{
+    width: 1130px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.dynamic-content .dynamic-box{
+    width: 513px;
+    height: 202px;
+    background: #fff;
+    float: left;
+    margin: 6px 20px 30px 0;
+    padding: 36px 0 0 20px;
+    border: 1px solid #fff;
+    position: relative;
+}
+.dynamic-box .dynamic-img{
+    width: 260px;
+    height: 168px;
+    float: left;
+    margin-right: 17px;
+}
+.dynamic-box .dynamic-text{
+    width: 221px;
+    float: left;
+}
+.dynamic-box .dynamic-text h1{
+    font-size: 20px;
+    color: #454548;
+    line-height: 26px;
+    max-height: 53px;
+    overflow: hidden;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.dynamic-box .dynamic-text .dynamic-time{
+    color: #6b6a6f;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.dynamic-box .dynamic-text .dynamic-describe{
+    margin-top: 8px;
+    color: #47464a;
+    line-height: 25px;
+    overflow: hidden;
+}
+.dynamic-box .small-arrow{
+    position: absolute;
+    left: 0;
+    top:36px;
+}
+.dynamic-box:hover{
+    border-color: #86759e;
+    transform: translateY(-6px);
+    transition: all 0.3s ease 0s;
+}
+.dynamic-box:hover .small-arrow{
+    top:36px;
+    left: 54px;
+    transition: all 0.3s ease 0s;
+}

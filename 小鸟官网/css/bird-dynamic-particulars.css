@@ -1,0 +1,113 @@
+
+/*内容详情样式*/
+.bird-dynamic-box{
+    width: 1100px;
+    background: #fff;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+.bird-dynamic{
+    width: 780px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.bird-dynamic h1{
+    text-align: center;
+    font-size: 54px;
+    color: #311759;
+    line-height: 60px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+.bird-dynamic h2{
+    text-align: center;
+    font-size: 18px;
+    color: #311759;
+    letter-spacing: 6px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.bird-dynamic h3{
+    background: url("../images/pen_line_long.png") no-repeat 0 58px;
+    height: 60px;
+    position: relative;
+    font-size: 30px;
+    color: #311759;
+    font-weight: 500;
+}
+.bird-dynamic .pen{
+    width: 61px;
+    height: 58px;
+    position: absolute;
+    right: 0;
+    top:7px;
+    cursor: pointer;
+    background: url("../images/pen_article.png") no-repeat;
+}
+.bird-dynamic .pen:hover{
+    background-position: -61px 0;
+}
+.when{
+    margin-top: 20px;
+}
+.dynamic-content{
+    margin-top: 50px;
+}
+
+/*喜欢按钮*/
+.like-btn-box{
+    width: 95px;
+    height: 95px;
+    overflow: hidden;
+    margin: 70px 350px 0;
+}
+.like-box{
+    width: 250px;
+}
+.like-btn-box .like-btn{
+    width: 73px;
+    height: 73px;
+    background: url("../images/article_iflike.png") no-repeat;
+    cursor: pointer;
+    float: left;
+    margin: 10px 10px;
+}
+.like-btn-box .like-number{
+    width:135px;
+    height:35px;
+    float:left;
+    margin-left:5px;
+    background:url("../images/article_iflike_nomberbg.png") no-repeat;
+    margin-top:29px;
+    padding-top:8px;
+    color:#fff;
+    text-align:center;
+}
+.like-btn-box:hover{
+    width: 213px;
+    transition: all 0.5s ease 0s;
+}
+.like-btn-box .like-btn-onclick{
+    background-position: 0 -73px;
+    transition: all 0.5s ease 0s;
+}
+/*点击之后的提示*/
+.like-reminder-box{
+    margin-top: 54px;
+    position: relative;
+}
+.like-reminder{
+    min-width:235px;
+    padding:27px 10px;
+    background:#f1f2f6;
+    border-radius:5px;
+    position:absolute;
+    top:370px;
+    left:258px;
+    color:#311859;
+    font-size:24px;
+    text-align:center;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+

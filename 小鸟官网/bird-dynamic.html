@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>小鸟动态</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/floating-window.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="icon shortcut" href="images/hhh.ico"/>
+    <link rel="stylesheet" href="css/bird-dynamic.css"/>
+
+</head>
+<body>
+<!--导航栏-->
+<div class="header">
+    <div class="header-box">
+        <div class="logo"></div>
+        <div class="nav">
+            <div class="no-drop-down now" onclick="javascript:window.location.href='index.html'"><h1>首页</h1></div>
+            <div class="drop-down">
+                <h1 onclick="javascript:window.open('bird-return-learn.html');">小鸟掌学</h1>
+                <span class="down-arrow"></span>
+                <ul class="drop-down-list">
+                    <li onclick="javascript:window.open('bird-return-learn.html');">小鸟掌学主页</li>
+                    <li onclick="javascript:window.open('bird-return-learn.html#1');">小鸟掌学概述</li>
+                    <li onclick="javascript:window.open('bird-return-learn.html#2');">对企业的价值</li>
+                    <li onclick="javascript:window.open('bird-return-learn.html#3');">小鸟掌云</li>
+                    <li>微课联盟</li>
+                    <li onclick="javascript:window.open('bird-return-learn.html#4');">App下载</li>
+                </ul>
+            </div>
+            <div class="no-drop-down"><h1 onclick="javascript:window.open('bird-dynamic.html?type=xiaoniaoNews');">小鸟动态</h1></div>
+            <div class="drop-down">
+                <h1 onclick="javascript:window.open('bird-dynamic-particulars.html?type=companyCulture');">企业文化</h1>
+                <span class="down-arrow"></span>
+                <ul class="drop-down-list">
+                    <li onclick="javascript:window.open('bird-dynamic-particulars.html?type=companyIdea');">公司理念</li>
+                    <li onclick="javascript:window.open('bird-dynamic-particulars.html?type=companyCulture');">公司文化</li>
+                    <li onclick="javascript:window.open('bird-dynamic-particulars.html?type=companyEnvironment');">公司氛围</li>
+                </ul></div>
+            <div class="drop-down">
+                <h1 onclick="javascript:window.open('bird-dynamic-particulars.html?type=team');">人力资源</h1>
+                <span class="down-arrow"></span>
+                <ul class="drop-down-list">
+                    <li onclick="javascript:window.open('bird-dynamic-particulars.html?type=talents');">人才理念</li>
+                    <li onclick="javascript:window.open('bird-dynamic-particulars.html?type=team');">团队介绍</li>
+                    <li onclick="javascript:window.open('bird-dynamic-particulars.html?type=joinUs');">招聘信息</li>
+                </ul>
+            </div>
+            <div class="no-drop-down" onclick="javascript:window.open('bird-dynamic-particulars.html?type=telUs');"><h1>联系我们</h1></div>
+        </div>
+    </div>
+</div>
+
+<!--小鸟动态-->
+<div class="bird-dynamic">
+    <div class="module-title">
+        <h1>小鸟动态</h1>
+        <h2>About Company</h2>
+        <img src="images/three_points01.png" alt="" style="margin-top: 20px;"/>
+        <h3 class="title-dynamic" style="width: 1100px;background-position-x: 0">列表<span class="pen"> </span></h3>
+        <!--小鸟动态内容-->
+        <div class="dynamic-content" id="articleList">
+            <!--内容布局模板-->
+            <!--<div class="dynamic-box">
+                <img class="small-arrow" src="images/list_img_over_xiaojiantou.png" alt=""/>
+                <div class="dynamic-img">
+                    <img src="images/list_img01.jpg" alt=""/>
+                </div>
+                <div class="dynamic-text">
+                    <h1 class="dynamic-title">卓新思创重装出发</h1>
+                    <p class="dynamic-time">2016-11-11</p>
+                    <p class="dynamic-describe">小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+                </div>
+            </div>-->
+        </div>
+        <!--查看更多-->
+        <img src="images/list_gomore_bg.jpg" alt="" style="margin: 30px auto 0"/>
+        <div class="list-more"></div>
+    </div>
+</div>
+
+<!--底部-->
+<div class="floor">
+    <div class="bg-img"></div>
+    <div class="floor-box">
+        <div class="floor-music">
+            <span style='background-image: url("images/yinyue_duo.png")'></span>
+            <span style='background-image: url("images/yinyue_lai.png")'></span>
+            <span style='background-image: url("images/yinyue_mi.png")'></span>
+            <span style='background-image: url("images/yinyue_fa.png")'></span>
+            <span style='background-image: url("images/yinyue_suo.png")'></span>
+            <span style='background-image: url("images/yinyue_la.png")'></span>
+            <span style='background-image: url("images/yinyue_xi.png")'></span>
+        </div>
+        <div class="music-content"></div>
+        <div class="statement" id="beiaishenmin"><a>蜀ICP备16002451号</a></div>
+    </div>
+</div>
+<!--悬浮窗-->
+<div class="floating" id="floating">
+    <div class="back-top"></div>
+    <div class="contact-us"></div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/listData.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/move.js"></script>
+<script type="text/javascript" src="js/floating-window.js"></script>
+<script type="text/javascript" src="js/Shuffling%20figure（轮播）.js"></script>
+<script type="text/javascript" src="js/bird-dynamic.js"></script>
+</html>
